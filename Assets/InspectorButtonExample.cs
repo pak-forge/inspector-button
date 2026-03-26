@@ -1,5 +1,5 @@
+using PakForge.InspectorButton;
 using UnityEngine;
-using YoWorld.Core.Utilities.InspectorButton;
 
 public class InspectorButtonExample : MonoBehaviour
 {

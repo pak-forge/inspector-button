@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace YoWorld.Core.Utilities.InspectorButton
+namespace PakForge.InspectorButton
 {
     [Conditional("UNITY_EDITOR")]
     [AttributeUsage(AttributeTargets.Method)]

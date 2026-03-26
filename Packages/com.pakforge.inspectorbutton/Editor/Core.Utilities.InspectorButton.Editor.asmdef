@@ -1,6 +1,6 @@
 {
     "name": "Core.Utilities.InspectorButton.Editor",
-    "rootNamespace": "YoWorld",
+    "rootNamespace": "PakForge.InspectorButton.Editor",
     "references": [
         "GUID:85c9b4b2c6508714d81a141492f5bc02"
     ],
