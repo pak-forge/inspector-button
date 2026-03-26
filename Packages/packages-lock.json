@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.pakforge.inspectorbutton": {
+      "version": "file:InspectorButton",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.multiplayer.center": {
       "version": "1.0.1",
       "depth": 0,
