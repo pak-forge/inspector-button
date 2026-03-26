@@ -55,6 +55,9 @@ jobs:
           # Force push the isolated package code to the 'upm' branch
           git push -f origin upm
           
+          # FETCH existing tags for conetext
+          git fetch --tags --force
+
           # Create and push the version tag specifically for the upm branch
           git tag -f $TAG upm
           git push origin -f --tags
