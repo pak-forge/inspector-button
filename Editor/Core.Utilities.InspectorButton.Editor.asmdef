@@ -1,0 +1,18 @@
+{
+    "name": "Core.Utilities.InspectorButton.Editor",
+    "rootNamespace": "YoWorld",
+    "references": [
+        "GUID:85c9b4b2c6508714d81a141492f5bc02"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
