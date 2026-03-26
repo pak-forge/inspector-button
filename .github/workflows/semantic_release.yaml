@@ -56,8 +56,8 @@ jobs:
           git push -f origin upm
           
           # Create and push the version tag specifically for the upm branch
-          git tag $TAG upm
-          git push origin --tags
+          git tag -f $TAG upm
+          git push origin -f --tags
         env:
           PKG_ROOT: Packages/com.pakforge.inspectorbutton
           TAG: ${{ steps.semantic.outputs.new_release_version }}
