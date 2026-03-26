@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b751e847-5039-4fcd-997a-94bde3cc00ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InspectorButton.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/semantic_release.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/semantic_release.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.inspector-button/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.inspector-button/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +51,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1776286840053" />
+    <option name="spentUsd" value="0.0136025" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="9" />
+  </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe" />
@@ -102,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1774535870184</updated>
       <workItem from="1774535873319" duration="11000" />
-      <workItem from="1774535890732" duration="666000" />
+      <workItem from="1774535890732" duration="1409000" />
     </task>
     <servers />
   </component>

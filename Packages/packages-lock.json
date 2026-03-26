@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.pakforge.inspectorbutton": {
-      "version": "file:InspectorButton",
+      "version": "file:com.pakforge.inspectorbutton",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
