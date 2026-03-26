@@ -167,7 +167,7 @@ namespace PakForge.InspectorButton.Editor
                             field = new HelpBox($"Parameter type {pType.Name} not supported for {pName}", HelpBoxMessageType.Warning);
                         }
 
-                        field.style.marginRight = 15; 
+                        field.style.marginRight = 15;
                         foldout.Add(field);
                     }
 
