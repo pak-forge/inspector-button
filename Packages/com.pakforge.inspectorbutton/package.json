@@ -1,0 +1,15 @@
+{
+	"name" : "com.pakforge.inspectorbutton",
+	"displayName" : "Inspector Button",
+	"description" : "The InspectorButton package allows you to add an attribute to methods that will draw a button in the scripts inspector for easy testing of execution.",
+	"author" : {
+		"name" : "Marc Robbins",
+		"email" : "marccrobbins@gmail.com"
+	},
+	"category" : "Unity",
+	"unity" : "6000.3",
+	"publicConfig" : {
+		"registry" : "http://34.124.124.81:4873/"
+	},
+	"version" : "1.0.0"
+}
