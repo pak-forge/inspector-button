@@ -27,10 +27,11 @@ jobs:
           extra_plugins: |
             @semantic-release/changelog
             @semantic-release/git
-          branch: main
+          branches: ["main"]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          REGISTRY_SERVER_URL: 'http://34.124.124.81:4873/'
 
       - name: Create upm branch
         if: steps.semantic.outputs.new_release_published == 'true'
