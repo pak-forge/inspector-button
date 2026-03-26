@@ -43,6 +43,14 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           REGISTRY_SERVER_URL: 'http://34.124.124.81:4873/'
 
+      - name: Check semantic release worked
+        if: steps.semantic.outputs.new_release_published == 'true'
+        run: |
+          echo ${{ steps.semantic.outputs.new_release_version }}
+          echo ${{ steps.semantic.outputs.new_release_major_version }}
+          echo ${{ steps.semantic.outputs.new_release_minor_version }}
+          echo ${{ steps.semantic.outputs.new_release_patch_version }}  
+
       - name: Create upm branch
         if: steps.semantic.outputs.new_release_published == 'true'
         run: |
@@ -64,18 +72,18 @@ jobs:
           fi
 
           # Force push the isolated package code to the 'upm' branch
-          git push -f origin upm
-          
-          # FETCH existing tags for conetext
-          git fetch --tags --force
-
-          # Create and push the version tag specifically for the upm branch
-          git tag -f $TAG upm
-          git push origin -f --tags
+          git push -f -u origin upm
         env:
           PKG_ROOT: Packages/com.pakforge.inspectorbutton
-          TAG: ${{ steps.semantic.outputs.new_release_version }}
       
+      - name: Create upm git tag
+        if: steps.semantic.outputs.new_release_published == 'true'
+        run: |
+          git tag $TAG upm
+          git push origin --tags
+        env:
+          TAG: ${{ steps.semantic.outputs.new_release_version }}
+
       - name: Setup Node
         if: steps.semantic.outputs.new_release_published == 'true'
         uses: actions/setup-node@v4
