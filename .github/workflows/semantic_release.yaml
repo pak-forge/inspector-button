@@ -20,6 +20,16 @@ jobs:
           fetch-depth: 0
           persist-credentials: true
 
+# NEW: Debugging step to see what the runner sees
+      - name: Debug Git Context
+        run: |
+          echo "--- Current Branch ---"
+          git branch --show-current
+          echo "--- Last 5 Tags ---"
+          git tag --sort=-v:refname | head -n 5
+          echo "--- Last 5 Commits ---"
+          git log -n 5 --oneline
+
       - name: Semantic release
         uses: cycjimmy/semantic-release-action@v4
         id: semantic

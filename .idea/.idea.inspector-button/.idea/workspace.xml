@@ -50,10 +50,10 @@
 }</component>
   <component name="RecapSpentCounter">
     <option name="endsOfQuotaMs" value="1776286840053" />
-    <option name="spentUsd" value="0.0136025" />
+    <option name="spentUsd" value="0.027618501" />
   </component>
   <component name="RecapUselessUpdatesCounter">
-    <option name="suspendCountdown" value="7" />
+    <option name="suspendCountdown" value="6" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
@@ -102,7 +102,7 @@
       <updated>1774535870184</updated>
       <workItem from="1774535873319" duration="11000" />
       <workItem from="1774535890732" duration="1409000" />
-      <workItem from="1774549697455" duration="1558000" />
+      <workItem from="1774549697455" duration="2356000" />
     </task>
     <servers />
   </component>
