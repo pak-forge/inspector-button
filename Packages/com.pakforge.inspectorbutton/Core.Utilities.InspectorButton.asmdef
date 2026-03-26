@@ -1,6 +1,6 @@
 {
     "name": "Core.Utilities.InspectorButton",
-    "rootNamespace": "YoWorld",
+    "rootNamespace": "PakForge.InspectorButton",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
